@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/logos/indiamart.png" type="image/png">
+    <title>IndiaMART</title>
+    <link rel="dns-prefetch" href="//utils.imimg.com">
+    <link rel="dns-prefetch" href="//apps.imimg.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/style3.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <header id="headers">
+            <div id="cont">
+                <div class="img"></div>
+                <div class="location">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/marker.png" />
+                    <h1> All India </h1>
+                </div>
+                <div id="cam">
+                    <input type="text" placeholder="Enter product/service to search" id="searchbar" value='' />
+                    <img id="mic" src="https://img.icons8.com/material-rounded/24/000000/microphone.png" />
+                    <button class="search-button" id='search-btn'><img
+                            src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png" />
+                        <span style="padding-top: 5px;" class="search-text"></span></button>
+                </div>
+                <div id="best-price">
+                    <h2>Get Best Price</h2>
+                </div>
+                <div class="right">
+
+                    <div><a href="/new.html"><img class="covi" src="/img/iconizer-label-7.svg"
+                                height="20px" /></a><br>
+                        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspShopping</span>
+                    </div>
+                    <div><img src="https://img.icons8.com/ios-glyphs/30/ffffff/small-business--v1.png" height="20px" />
+                        <span>Sell</span>
+                    </div>
+                   
+                    <div><img src="https://img.icons8.com/material-outlined/24/ffffff/help.png" height="20px" />
+                        <span>Help</span>
+                        
+                       
+                    
+                    </div>
+                    
+                    <div><img class="mgs"
+                            src="https://img.icons8.com/material-outlined/24/ffffff/create-new-child-post.png"
+                            height="20px" />
+                        <span>Messages</span>
+                    </div>
+                    <div><img class="sign" src="https://img.icons8.com/windows/32/ffffff/user.png" height="20px"; id='reg' onclick="menuToggle()" style="cursor: pointer;"  />
+                        <span class="hov"><span id='reg' onclick="menuToggle()">Sign In
+                            </span>
+                            <div class="menu">
+                                <button id="sign-btn"><a href="html/signin.html">Sign In</a></button>
+                                <p><span>New to IndiaMART?</span><a href="html/signup.html">Join Now</a></p>
+                                <hr>
+                                <ul>
+                                    <li><img src="https://img.icons8.com/material-outlined/24/000000/home--v2.png" /><a
+                                            href="index.html">Home</a></li>
+                                    <li><img
+                                            src="https://img.icons8.com/material-outlined/24/000000/create-new-child-post.png" />Post
+                                        Your Requirement</li>
+                                    <li><img
+                                            src="https://img.icons8.com/fluency-systems-regular/48/000000/check-male.png" />Verified
+                                        Business Buyers</li>
+                                    <li><img
+                                            src="https://img.icons8.com/fluency-systems-regular/48/000000/open-file-under-cursor.png" />Products/Services
+                                        Directory</li>
+                                    <li><img
+                                            src="https://img.icons8.com/fluency-systems-regular/48/000000/deliver-food.png" /><a
+                                            href="html/cart.html">My Order</a></li>
+                                    <li><img
+                                            src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-grid-alignment-dreamstale-lineal-dreamstale.png" />Recent
+                                        Activity</li>
+                                    <li><img
+                                            src="https://img.icons8.com/material-outlined/24/000000/settings--v1.png" />Setting
+                                    </li>
+                                </ul>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="back">
+            <div id="back_box">
+
+                <h3><b>Search</b> for product & find <b>verified sellers</b> near you</h3>
+
+                <div id="search-area" class="Flex cBJcc">
+                    <div class="dropdown">
+                        <button class="dropbtn" id="searchplace">
+                            <i class="fa fa-map-marker"></i>
+                            <span id="usercity">All India</span>
+                            <i class="fa fa-angle-down pull-right"></i>
+                        </button>
+                        <div id="searchPlaces" class="dropdown-content" style="display: block;">
+                            <input type="text" placeholder="Search your city" id="searchPlaceInput"
+                                class="srin ui-autocomplete-input" autocomplete="off" role="textbox"
+                                aria-autocomplete="list" aria-haspopup="true" onkeyup="sugg_op()">
+                            <div id="al_ind" class="bn_alop">All India</div>
+                            ::after
+                        </div>
+                    </div>
+                    <input type="text" id="search-input" placeholder="Enter product/service name" name="ss"
+                        class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list"
+                        aria-haspopup="true">
+                    <button id="searchBtn" onclick="redirectsearch()">
+                        <i class="fa fa-search"></i>
+                        Search
+                    </button>
+                </div>
+            </div>
+            ::after
+        </div>
+
+        <div id="mega-menu">
+            <div class="container bg-white">
+                <div class="row">
+                    <div class="col menu-item">
+                        <div class="menu-item-wrapper">
+                            <i class="hm-icn"></i>
+                            <span>Building & Construction</span>
+                        </div>
+                    </div>
+                    <div class="col menu-item">
+                        <div class="menu-item-wrapper">
+                            <i class="hm-icn2"></i>
+                            <span>Electronics & Electricals</span>
+                        </div>
+                    </div>
+                    <div class="col menu-item">
+                        <div class="menu-item-wrapper">
+                            <i class="hm-icn18"></i>
+                            <span>Drugs & Pharma</span>
+                        </div>
+                    </div>
+                    <div class="col menu-item">
+                        <div class="menu-item-wrapper">
+                            <i class="hm-icn5"></i>
+                            <span>Industrial Machinery</span>
+                        </div>
+                    </div>
+                    <div class="col menu-item">
+                        <div class="menu-item-wrapper">
+                            <i class="hm-icn3"></i>
+                            <span>Industrial Supply</span>
+                        </div>
+                    </div>
+                    <div class="col menu-item">
+                        <div class="menu-item-wrapper">
+                            <i class="hm-icn20"></i>
+                            <span>Food & Agriculture</span>
+                        </div>
+                    </div>
+
+                    <div class="col menu-item">
+                        <div class="menu-item-wrapper">
+
+                            <span class="arrow">View All Categories</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+        <main>
+            <section id="connect-buyer-wrapper">
+                <div class="container">
+                    <div class="md" id="connect-buyer-">
+                        <h2>We connect <b>Buyers</b> & <b>Sellers</b></h2>
+                        <p>IndiaMART is India's largest online B2B marketplace, connecting buyers with suppliers</p>
+                    </div>
+                </div>
+                <div class="imgcontainer" style="width: 920px;">
+                    <a href="https://www.youtube.com/watch?v=CX-XjPeTihU" target="_blank"><img src="./img/stressed-to-relaxed.jpg" alt="nav image" style="width: 850px;"></a>
+                </div>
+            </section>
+
+            <div style="margin-top: 20px; margin-bottom: 20px;"; class="section">
+                <h2>Pharmaceutical Drug, Medicine, Medical Care & Consultation</h2>
+                <div class="inner-box">
+                    <div class="maskimg">
+                        <img class="img-mask" src="https://hm.imimg.com/imhome_gifs/bigBn06.jpg">
+                        <div class="inner-text">
+                            <ul class="subcat1">
+                                <li class="links"><a class="dekh" href="#">Pharma Raw Material</a></li>
+                                <li class="links"><a class="dekh" href="#">Pharmaceutical Chemical</a></li>
+                                <li class="links"><a class="dekh" href="#">Clinical Trial Services</a></li>
+                                <li class="links"><a class="dekh" href="#">x-ray-services</a></li>
+                            </ul>
+
+                            <a href="#" class="button-view">View All</a>
+                        </div>
+                    </div>
+
+                    <div class="mini-img">
+                        <ul class="img-2">
+                            <li class="img-3">
+                                <img src="https://5.imimg.com/data5/KT/MJ/MY-16675294/pharmaceutical-drug-125x125.jpg">
+                            </li>
+
+                            <ul class="subcat1">
+                                <li class="nice1">Pharmaceutical Drug</li>
+
+                                <li class="nice">Tocilizumab</li>
+
+                                <li class="nice">FabiFlu</li>
+
+                                <li class="nice">Remdesivir</li>
+
+                                <li class="nice"> Doxycycline</li>
+
+                                <li class="nice">Deflazacort</li>
+
+                            </ul>
+                        </ul>
+                        <ul class="img-2">
+                            <li class="img-3">
+                                <img
+                                    src="https://3.imimg.com/data3/JR/DH/GLADMIN-7427/nutritional-supplements-125x125.jpg">
+                            </li>
+
+                            <ul class="subcat1">
+                                <li class="nice1">Nutraceuticals </li>
+
+                                <li class=nice> Zinc Sulphate Tablets</li>
+
+
+                                <li class=nice>Zincovit Tablets</li>
+
+
+                                <li class=nice>Vitamin C Tablets</li>
+
+
+                                <li class=nice>Multivitamin Syrup</li>
+
+
+                                <li class=nice>Vitamin D3</li>
+
+
+
+
+                            </ul>
+                        </ul>
+                        <ul class="img-2">
+                            <li class="img-3">
+                                <img
+                                    src="https://5.imimg.com/data5/PQ/HW/MY-7191707/thinq-mass-gainer-282-lbs-29-125x125.png">
+                            </li>
+
+                            <ul class="subcat1">
+                                <li class="nice1">Fitness Supplements </li>
+
+                                <li class=nice> Weight Gain Nutrition</li>
+
+
+                                <li class=nice>Immune Booster</li>
+
+
+                                <li class=nice>Pre workout Supplements</li>
+
+
+                                <li class=nice> Weight Gain Capsule</li>
+
+
+                            </ul>
+                        </ul>
+                        <ul class="img-2">
+                            <li class="img-3">
+                                <img
+                                    src="https://3.imimg.com/data3/BA/YT/MY-2018319/multidisciplinary-care-125x125.jpg">
+                            </li>
+
+                            <ul class="subcat1">
+                                <li class="nice1"> Medical Treatment Services</li>
+
+                                <li class=nice>Dental Treatment Services</li>
+
+                                <li class=nice>Eye Treatment</li>
+
+                                <li class=nice>Plastic Surgery Services</li>
+
+
+                                <li class=nice>Medical Surgery Services</li>
+
+
+                            </ul>
+                        </ul>
+                        <ul class="img-2">
+                            <li class="img-3">
+                                <img src="https://5.imimg.com/data5/JM/MB/MY-4222986/8-125x125.jpg">
+                            </li>
+
+                            <ul class="subcat1">
+                                <li class="nice1">Medical Test Services </li>
+
+                                <li class=nice>CT Scan Services</li>
+
+                                <li class=nice>Blood Testing</li>
+
+
+                                <li class=nice>Ultrasound Services</li>
+
+
+                                <li class=nice>ECHO Cardiography</li>
+
+                            </ul>
+                        </ul>
+                        <ul class="img-2">
+                            <li class="img-3">
+                                <img
+                                    src="https://5.imimg.com/data5/YC/QB/MY-3773531/allopathic-pcd-pharma-franchise-125x125.jpg">
+                            </li>
+
+                            <ul class="subcat1">
+                                <li class="nice1">PCD Pharma Franchise </li>
+
+                                <li class=nice>Pharma Franchise</li>
+
+
+                                <li class=nice> Allopathic PCD Pharma Franchise</li>
+
+
+                                <li class=nice>Ayurvedic PCD Pharma Franchise</li>
+
+
+                                <li class=nice>Veterinary PCD Pharma Franchise</li>
+
+                            </ul>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <section id="get-app-wrapper" class="in-mart-sec im_busy">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="p-15">
+                                <div class="im_busy_logo">
+                                    <a href="#"><img src="./img/busy_indiamart_logo.png" alt="Image not found" width="200"></a>
+                                </div>
+                                <h3><b style="font-weight: 700;">Accounting Software</b></h3>
+                                <p>Trusted by
+                                    <span>3,60,000+</span>
+                                    Small Business across different domains
+                                </p>
+                                <ul>
+                                   <li>
+                                        <span>
+                                            <a href="#" target="blank"><svg viewbox="0 0 24 24" width="20" height="20"><path d="M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z"></path></svg></a>
+                                        </span>
+                                        <span>
+                                        <a href="#">GST Accounting Software</a>
+                                    
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <a href="#" target="blank"><svg viewbox="0 0 24 24" width="20" height="20"><path d="M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z"></path></svg></a>
+                                        </span>
+                                        <span>
+                                        <a href="#">e-Invoice Software</a>
+                                    
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <a href="#" target="blank"><svg viewbox="0 0 24 24" width="20" height="20"><path d="M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z"></path></svg></a>
+                                        </span>
+                                        <span>
+                                        <a href="#">Inventory Management Software</a>
+                                    
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <a href="#" target="blank"><svg viewbox="0 0 24 24" width="20" height="20"><path d="M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z"></path></svg></a>
+                                        </span>
+                                        <span>
+                                        <a href="#">e-Way Billing Software</a>
+                                    
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img data-original="as_img.png" src="https://hm.imimg.com/template-mdc/as_img.png" alt="Accounting Software" class="acc_img">
+                         </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <Footer>
+            <div class="footer cf_footer">
+                <div class="footer_hd">
+                    <div class="footer_wd">
+                        <div class="footer_social">
+                            "Follow us on:"
+                            <a href="" class="cf_fb" target="_blank">Facebook</a>
+                            <a href="" class="tw_ft" target="_blank">Twitter</a>
+                            <a href="" class="cf_lkd" target="_blank">linkedin</a>
+                        </div>
+
+                        <div class="footer_mo footer_rht">
+                            "Go Mobile:"
+                            <a href="" class="cf_iOS" target="_blank">iOS App</a>
+                            <a href="" class="cf_anrd" target="_blank">Android App</a>
+                            <a href="" class="cf_msit" target="_blank">https://m.indiamart.com</a>
+                        </div>
+                        <span class="footer_fhd">We are here to help you!</span>
+                    </div>
+                </div>
+
+                <div class="f1 f2" id="new">
+                    <ul>
+                        <li class="new1">
+                            <a href="">About Us</a>
+                            <a href="">join sales</a>
+                            <a href="">success stories</a>
+                            <a href="">press section</a>
+                            <a href="">Advertise with us</a>
+                        </li>
+
+                        <li class="new2">
+                            <a href="">Help</a>
+                            <a href="">Feedback</a>
+                            <a href="">Complaints</a>
+                            <a href="">Customer Care</a>
+                            <a href="">Jobs & Career</a>
+                            <a href="">Contact Us</a>
+                        </li>
+
+                        <li class="cf_wdth">
+                            <div class="list">
+                                <a href="" class="">Suppliers Tool kit</a>
+                            </div>
+                            <span id="web">
+                                <a href="" class="">Sell on IndiaMart</a>
+                            </span>
+                            <a href="" class="">Latest Buylead</a>
+                            <a href="" class="">learning Center</a>
+                            <a href="" class="">Ship with IndiaMart</a>
+                        </li>
+                        <li class="cf_wdth">
+                            <div class="wide">
+                                <a href="" class="">Buyers Tool Kit </a>
+                            </div>
+                            <a href="" class="">Post Your Requirement</a>
+                            <a href="" class="">Products You Buy</a>
+                            <a href="" class="">Search Products & Suppliers</a>
+                            <a href="" class="">Pay With IndiaMart</a>
+                        </li>
+
+                        <li class="last">
+                            <div class="cf_lihd">
+                                Accounting Solutions
+                            </div>
+                            <a href="" class="">Accounting Software</a>
+                            <a href="" class="">Tally on Mobile</a>
+                            <a href="" class="">GST e-Invoice</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="cp">
+                    <div class="cp_wd">
+                        <span class="cp_ri">
+                            <a href="">Terms of Use-</a>
+                            <a href="">Privacy Policy-</a>
+                            <a href="">Link to Us</a>
+                        </span>
+
+                        <span>
+                            "Copyright &copy 1996-2023 IndiaMART InterMESh Ltd. All rights reserved. "
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </Footer>
+</body>
+
+</html>
+<script src='./js/home.js'></script>

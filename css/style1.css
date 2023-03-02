@@ -1,0 +1,480 @@
+*{
+    box-sizing: border-box;
+  }
+
+  header {
+  padding: 10px 12px;
+  position: relative;
+  }
+
+  body{
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  color: #111;
+  background-color: #fff;
+  }
+
+  .aic{
+    align-items: center;
+  }
+
+  .df{
+    display: flex;
+  }
+
+  .bg0{
+    background-color: #fff;
+  }
+
+  header>div {
+  max-width: 124px;
+  min-width: 1240px;
+  margin: 0 auto;
+  }
+
+  div p{
+    font-family: "Red Hat Display", sans-serif!important;
+    padding: 0;
+  }
+
+  .logo a {
+  font-size: 23px;
+  font-weight: 500;
+  color: #7c7c7c;
+  }
+
+  a{
+    outline: 0;
+    text-decoration: none;
+  }
+
+  .logo span {
+  padding: 10px 0 0 4px;
+}
+
+.srh {
+border: 1px solid rgb(0 0 0 / 19%);
+border-radius: 6px;
+padding: 15px 19px;
+flex: 1;
+margin-left: 5%;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.pr{
+position: relative;
+}
+
+.srh form>span {
+  left: 0;
+  border-radius: 6px 0 0 6px;
+  border-right: 1px solid #dddbdb;
+  height: 37px;
+  width: 55px;
+}
+
+.jcc{
+justify-content: center;
+}
+
+.pa{
+position: absolute;
+font-size: 15px;
+}
+
+header input[type=text]{
+color: #111;
+padding: 0 110px 0 55px;
+font-size: 16px;
+width: 100%;
+}
+
+.fw5{
+font-weight: 500;
+}
+
+header input{
+border: none;
+}
+
+.srh button {
+  border: none;
+  padding: 0;
+  min-width: 110px;
+  max-width: 110px;
+  right: -1px;
+  background-color: #2a6462;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 6px 6px 0;
+  color: #fff;
+}
+
+.cp {
+cursor: pointer;
+}
+
+.srh button svg{
+margin-right: 5px;
+}
+
+.fs16{
+font-size: 16px;
+}
+
+button {
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  margin: 0em;
+}
+
+.ml10 {
+margin-left: 10px;
+margin-right: 28px;
+}
+
+.hdr_gbe>span {
+border-radius: 4px;
+padding: 22px 26px;
+color: #fff;
+}
+
+.db{
+display: block;
+}
+
+.bg1 {
+background-color: #2e3192;
+}
+
+
+
+.main{
+    max-width: 1240px;
+    margin: 0 auto 20px;
+}
+.yt100{
+    margin: 5px 0 15px;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start:0px ;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+.yt100 li{
+    min-width: 100px;
+    max-width: 100px;
+}
+.nh{
+  text-align: center;
+}
+ul li{
+    list-style: none;
+
+}
+li{
+    display: list-item;
+}
+.yt100 a{
+    color: #454647;
+}
+a{
+    outline: 0;
+    text-decoration: none;
+}
+.yt100 li a>span:first-child{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rbg(0 0 0 / 15%);
+}
+.copy{
+    margin: 0 auto;
+}
+img {
+    border: medium none;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.kilo{
+    line-height: 18px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.db{
+    display: block;
+}
+.mt20{
+  margin-top: 20px;
+}
+.catg{
+  padding: 20px 0;
+}
+.wt100{
+  margin-bottom: 20px;
+}
+.mr10{
+  margin-right: 15px;
+}
+.vbpr{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 15%);
+}
+.fsh0{
+  flex-shrink: 0;
+}
+.cp{
+  cursor: pointer;
+}
+.catg9{
+  margin-right: 29px;
+}
+.catg_big_left>div .catg_card{
+  box-shadow: none;
+  margin: 0 28px 24px 0;
+}
+.catg_big_left{
+  max-width: 250px;
+}
+.catg_card{
+  min-width: 225px;
+  max-width: 225px;
+  border-radius: 10px;
+  transition: all .3s ease-out;
+  border-top: 1px solid #f7f4f4;
+}
+.catg_card>a{
+   min-width: 225px;
+   max-width: 225px;
+   min-height: 225px;
+   max-height: 225px;
+   border-radius: 10px 10px 0 0;
+}
+.catg_big_left>div .catg_card>a{
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.ofh{
+  overflow: hidden;
+}
+a{
+  outline: 0;
+  color:#111;
+  text-decoration: none;
+}
+.catg_card>a img{
+  max-height: 225px;
+  max-width: 225px;
+}
+img{
+  border: medium;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+.catg_big_left .catg_big>a{
+     padding: 10px 0 0;
+}
+.lne{
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.prd{
+  line-height: 1.2;
+  letter-spacing: .0175rem;
+  height: 36px;
+}
+.ofh{
+  overflow: hidden;
+}
+.fs15{
+  font-size: 15px;
+}
+.stor{
+  color: #454647;
+}
+.lne1{
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.xt100{
+  line-height: 18px;
+}
+.mt5{
+  margin-top: 5px;
+}
+.fs13{
+  font-size: 13px;
+}
+.fw4{
+  font-weight: 400;
+}
+.prc{
+  letter-spacing: .006rem;
+}
+.clr1{
+  color: #2e3192;
+}
+.fw7{
+  font-weight: 700;
+}
+.fs20{
+  font-size: 20px;
+}
+.hm{
+  bottom: -20px;
+}
+.w100{
+  width:100%
+}
+.cp{
+  cursor: pointer;
+}
+.tac{
+  text-align: center;
+}
+
+.sch>span{
+  padding:15px 70px;
+  border: 1px solid #232324;
+  display: inline-block;
+  border-radius: 4px;
+}
+.clr0{
+  color: #fff;
+}
+bg1{
+  background-color: #2e3192;
+}
+.fs18{
+  font-size: 18px;
+}
+.catg2{
+  padding-bottom: 40px;
+}
+.pr{
+  position: relative;
+}
+.catg76{
+  padding-bottom: 40px;
+}
+
+.b0{
+  bottom: 0;
+}
+.r0{
+  right: 0;
+}
+.l0{ 
+ left: 0;
+}
+.prc_c{
+  padding: 0 20px 15px;
+}
+.db{
+  display: block;
+}
+.pa{
+  position: absolute;
+}
+.prc{
+  letter-spacing: .006rem;
+}
+.clr1{
+  color: #2e3192;
+}
+.fw7{
+  font-weight: 700;
+}
+.fs20{
+  font-size: 20px;
+}
+p{
+  margin: 0;
+  padding:0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.catg_sec{
+  padding-bottom: 40px;
+}
+.w100{
+  width: 100%;
+}
+.catg_card {
+    min-width: 225px;
+    max-width: 225px;
+    border-radius: 10px;
+    margin: 0 22px 25px 5px;
+    transition: all .3s ease-out;
+    box-shadow: 0 4px 7px rgb(0 0 0 / 6%);
+    border-top: 1px solid #f7f4f4;
+}
+/*footer*/
+.w100{
+  width: 100%;
+}
+.fs{
+  font-size: 14px;
+}
+footer ,footer a{
+  color: #aaaaab;
+  
+}
+.btm uto{
+  background-color:#232324;
+}
+.fs{
+  font-size: 14px;
+}
+footer .btm{
+  padding: 30px 0;
+  max-width: 1240px;
+}
+.uto{
+  margin:0 auto;
+  
+}
+footer,p{
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.fs14{
+  background-color: #232324;
+}

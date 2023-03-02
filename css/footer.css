@@ -1,0 +1,222 @@
+.cp_wd a{
+    text-decoration: none;
+    outline:none;
+}
+
+.footer_social,.cp_ri,.f1,.last{
+    float:right;
+}
+
+.footer,.cp{
+    clear:both;
+}
+
+.cp_wd{
+    width: 1001px;
+    margin:0 auto;
+}
+
+.cf_footer{
+    background-color: #f6f6f6;
+    border-top: 1px solid #e6e6e6;
+    font-weight:300px;
+    font-size: 14px;
+    font-family: arial;
+}
+
+.cf_footer a {
+    text-decoration: none;
+    outline:none;
+
+}
+
+.cf_footer ul,.cf_footer li{
+    margin:0px;
+    padding:0px;
+
+}
+
+.footer_hd{
+    background-color: #eeeeee;
+    border-top:1px solid #fff;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 42px;
+    font-weight:400;
+}
+
+.footer_fhd{
+   color:#2e3192;
+   font-size: 20px;
+   margin-left:235px;
+}
+
+.footer_social a{
+    display: inline-block;
+    width:31px;
+    height: 42px;
+    margin: 0px;
+    text-indent: -99999px;
+    transition: all 0.2s ease-out 0s;
+
+}
+
+.footer_social{
+    font-size: 13px;
+    margin-right: 235px;
+}
+
+.cf_fb{
+    background-position: -138px -189px;
+    background-image: url(https://utils.imimg.com/globalhf/hrd-sp-v30.png);
+
+}
+
+.cf_fb:hover{
+    background-position: -170px -189px;
+}
+
+.tw_ft{
+    background-position: -202px -189px;
+    background-image: url(https://utils.imimg.com/globalhf/hrd-sp-v30.png);
+}
+ 
+.tw_ft:hover{
+    background-position: -234px -189px;
+
+}
+
+.cf_lkd{
+    background-position:-265px -189px;
+    background-image: url(https://utils.imimg.com/globalhf/hrd-sp-v30.png);
+}
+
+.cf_lkd:hover{
+    background-position: -297px -189px;
+}
+
+.footer_mo{
+    margin-right: 30px;
+    float:right;
+    font-size: 13px;
+}
+
+.footer_mo a{
+    display: inline-block;
+    width:24px;
+    height:42px;
+    margin:0px;
+    text-indent: -99999px;
+    transition: all 0.2s ease-out 0s;
+}
+
+.cf_iOS{
+    background-position: -45px -187px;
+    background-image: url(https://utils.imimg.com/globalhf/hrd-sp-v30.png);
+}
+
+.cf_iOS:hover{
+    background-position: -68px -187px;
+}
+
+.cf_anrd{
+    background-position: 0px -187px;
+    background-image: url(https://utils.imimg.com/globalhf/hrd-sp-v30.png);
+}
+
+.cf_anrd:hover{
+    background-position: -23px -187px;
+}
+
+.cf_mSit{
+    background-position: -90px -187px;
+    background-image: url(https://utils.imimg.com/globalhf/hrd-sp-v30.png);
+}
+
+.cf_mSit:hover{
+    background-position: -113px -187px;
+}
+
+.f2 li{
+    margin:7px 0px;
+    display: inline-block;
+    width:190px;
+    float:left;
+    list-style: none;
+    line-height: 19px;
+    padding-left: 40px;
+}
+
+.f2 li.new1{
+width:190px;
+}
+
+.f2 li.new2{
+    width:190px;
+}
+
+.f2 li.last{
+    margin-right: 0px;
+    width:180px;
+}
+
+.f2 li,.cf_wdth{
+    width:220px;
+}
+
+.f2 li a{
+    display: block;
+    padding:1px 0px;
+    color:#727272;
+}
+
+.f2 li a:hover,.cp a:hover{
+    color:#2e3192;
+}
+
+.f2 .wide{
+    font-size: 17px;
+    color:#000;
+    padding:0px 0px 4px;
+    font-weight: 400px;
+}
+
+.cp{
+    border-top: 1px solid #e1e1e1;
+    color:#727272;
+    padding:5px;
+    font-size:13px
+}
+
+.cp a{
+    color:#727272
+}
+
+.f2 .wide a{
+    color:#000;
+}
+
+.f2 .list a{
+    font-size: 17px;
+    color:#000;
+    
+}
+
+.f2 .last a{
+    font-size: 14px;
+    
+    
+}
+
+.f1 ul{
+    width:1235px;
+}
+
+.cf_lihd{
+    font-size: 17px;
+    padding-bottom: 6px;
+}
+
+.f2 .list{
+    padding-bottom: 4px;
+}
+
